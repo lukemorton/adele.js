@@ -104,8 +104,10 @@ As with the `describe()` function, `it()` is provided by Jasmine. You usually
 start the string given to `it()` with should. The specification above
 essentially says:
 
-> describe helloWorld()
->   it should return "Hello World"
+```
+describe helloWorld()
+  it should return "Hello World"
+```
 
 This enables us to specify how we want our code to work. To actually check if
 `helloWorld()` returns `"Hello World"` we need to write an expectation:
@@ -125,9 +127,11 @@ are provided by Jasmine. Don't get too tied down in the syntax it might look
 complicated now but read the code from top to bottom and it really does sound
 like standard English!
 
-> describe helloWorld()
->   it should return "Hello World"
->     expect the return value of helloWorld() to equal "Hello World"
+```
+describe helloWorld()
+  it should return "Hello World"
+    expect the return value of helloWorld() to equal "Hello World"
+```
 
 Hopefully I haven't blown your brain too much. Go back and reread this
 description of `test/` so far.
@@ -141,13 +145,14 @@ tied down in this detail essentially `Adele.random()` could have easily of been
 So in pseudo code a.k.a. plain English `adeleSpec.js` contains the
 specification:
 
-> describe Adele
->   describe Adele.random()
->     it should return a number greater than 0
->       expect the return value of Adele.random() to be greater than 0
->
->     it should return a number less than 14
->       expect the return value of Adele.random() to be less than 14
+```
+describe Adele
+  describe Adele.random()
+    it should return a number greater than 0
+      expect the return value of Adele.random() to be greater than 0
+    it should return a number less than 14
+      expect the return value of Adele.random() to be less than 14
+```
 
 So there we have it. Specifications describe how we expect our code to behave.
 
