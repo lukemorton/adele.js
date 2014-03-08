@@ -20,9 +20,9 @@ git clone https://bitbucket.org/DrPheltRight/adele adele
 
 So let's describe what tooling we are using here:
 
- * Firstly we are using node to run JavaScript from the command line instead of
-   a browser. This makes it easier to focus on JS rather than the browser, HTML
-   and CSS. 
+ * Firstly we are using node.js to run JavaScript from the command line instead
+   of a browser. This makes it easier to focus on JS rather than the browser,
+   HTML and CSS. 
 
  * Node.js comes with a way of managing projects and dependencies. It's called
    NPM or Node Package Manager and it has a command `npm`. We'll describe using
@@ -59,9 +59,9 @@ contains descriptions of how your code should function. Any filename in the
 your project. Don't worry about how to test just yet we'll get back to that.
 
 A specification or spec is a type of test. They are used heavily in TDD. Inside
-`adeleSpec.js` you will see describe functions. The `describe()` function is
-provided by the Jasmine library. Any code within the describe function is used
-to describe the string that preceeded the function. I'll explain:
+`adeleSpec.js` you will see `describe()` functions. The `describe()` function is
+provided by the Jasmine library. Any code within the `describe()` function is
+used to describe the string that preceeded the function. I'll explain:
 
 ``` js
 describe('helloWorld()', function () {
@@ -123,7 +123,7 @@ describe('helloWorld()', function () {
 So inside the `it()` function we wrote an expectation. We called `helloWorld()`
 and gave it's return value to `expect()` and then made the expectation that it's
 return value is equal to `"Hello World"`. As before `expect()` and `.toEqual()`
-are provided by Jasmine. Don't get too tied down in the syntax it might look
+are provided by Jasmine. Don't get too tied down by the syntax. It might look
 complicated now but read the code from top to bottom and it really does sound
 like standard English!
 
@@ -158,7 +158,7 @@ So there we have it. Specifications describe how we expect our code to behave.
 
 ### `lib/`
 
-So we've describe our code but where the hell is it? Well generally a project
+So we've described our code but where the hell is it? Well generally a project
 will call it's codebase a library. We therefore use the folder name `lib/`.
 
 Inside you will find one file `adele.js`. This correlates to the specification
@@ -173,9 +173,9 @@ a random number between or including the two given. We utilise this *private*
 function inside `Adele.random()`. As the spec declares `Adele.random()` should
 return a number greater than 0 and less than 14.
 
-The last line in the file `module.exports = Adele;` simple exports the `Adele`
-object out of the file so we can use it elsewhere. In `adeleSpec.js` we import
-the `Adele` object to the `Adele` variable with
+The last line in the file `module.exports = Adele;` exports the `Adele` object
+out of the file so we can use it elsewhere. In `adeleSpec.js` we import the
+`Adele` object to the `Adele` variable with
 `var Adele = require('../lib/adele');`. Again don't let these details bog you
 down. It's simply a way of using the `Adele` object inside the test file.
 
@@ -204,8 +204,7 @@ This should tell you the version of node.js you installed. If not somethings
 broke and you should check to see if you install it properly.
 
 Now you've got node installed which comes with NPM, you can install your
-dependencies. From within the `adele/` directory you install this project at
-you should run the command:
+dependencies. From within the `adele/` directory where you installed this project you should run the command:
 
 ```
 npm install
