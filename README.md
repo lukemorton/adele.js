@@ -11,7 +11,7 @@ Before we begin you need to download this project. To do so simply run this
 command in your terminal where you want to create your project:
 
 ```
-git clone https://bitbucket.org/DrPheltRight/adele adele
+git clone https://github.com/DrPheltRight/adele.js adele
 ```
 
 `git clone` will download the project into the folder `adele/`.
