@@ -139,22 +139,22 @@ food, twitter and emails.
 
  - [Chapter One: Adele's first TDD Project][chapter-one]
 
-[install-iterm]: http://www.iterm2.com/
-[cli]: http://en.wikipedia.org/wiki/Command-line_interface
-[github-issue]: https://github.com/DrPheltRight/adele.js/issues/new
-
-[chapter-one]: https://github.com/DrPheltRight/adele.js/tree/develop/01-adeles-first-tdd-project
-
 ## About this project
 
 If you aren't Adele and are looking at this project that's okay. It's open
 source. It's MIT licensed. Do what you will with it. If you find it a useful
 learning resource, learn from it :)
 
-## Author
+### Author
 
 Luke Morton
 
-## License
+### License
 
-MIT
+MIT. See [LICENSE][license] for more information.
+
+[install-iterm]: http://www.iterm2.com/
+[cli]: http://en.wikipedia.org/wiki/Command-line_interface
+[github-issue]: https://github.com/DrPheltRight/adele.js/issues/new
+[chapter-one]: https://github.com/DrPheltRight/adele.js/tree/develop/01-adeles-first-tdd-project
+[license]: https://github.com/DrPheltRight/adele.js/tree/develop/LICENSE
