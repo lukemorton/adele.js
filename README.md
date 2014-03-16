@@ -18,9 +18,12 @@ You will be learning practices, libraries and design patterns that are used
 at the forefront of our industry. Most of this is not taught in universities.
 You are not expected to know any of this.
 
-> So without further ado, 
-> Adele, 
-> A JavaScript Walkthrough, 
+> So without further ado,
+>
+> Adele,
+>
+> A JavaScript Walkthrough,
+>
 > I present to You.
 
 ## Prerequisites
