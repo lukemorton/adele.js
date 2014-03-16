@@ -144,3 +144,17 @@ food, twitter and emails.
 [github-issue]: https://github.com/DrPheltRight/adele.js/issues/new
 
 [chapter-one]: https://github.com/DrPheltRight/adele.js/tree/develop/01-adeles-first-tdd-project
+
+## About this project
+
+If you aren't Adele and are looking at this project that's okay. It's open
+source. It's MIT licensed. Do what you will with it. If you find it a useful
+learning resource, learn from it :)
+
+## Author
+
+Luke Morton
+
+## License
+
+MIT
