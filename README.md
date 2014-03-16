@@ -2,11 +2,11 @@
 
 Hi Adele! Are you prepared to enter an industry level realm of JavaScript
 learning? Are you – at the same time as learning JavaScript – ready to learn
-practices such as Test Driven Development (TDD) and Source Code Management
+practices such as **Test Driven Development** (TDD) and **Source Code Management**
 (SCM)? Are you – at the same time as learning JavaScript and practices such as
-TDD and SCM – ready to learn the package management tool NPM, write code to run
-in the browser and node.js simultaneously and use a bunch of libraries that will
-help you get things done quicker?
+TDD and SCM – ready to learn the package management tool **NPM**, write code to
+run in the **browser** and **node.js** simultaneously and use a bunch of
+libraries that will help you get things done quicker?
 
 Your wonderfully zealous attempts at smaller tasks I've set tell me you are.
 Your passion tells me you want to solve hard problems. Your tenacity will help
