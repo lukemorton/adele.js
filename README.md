@@ -131,11 +131,11 @@ not have and you should [create an issue][github-issue].
 
 ## Table of Contents
 
-So let's get started shall we? Work your way through this ToC as and when you
-find time. Try and work on each chapter with a block of time. They should take
-no more than a couple of hours to complete each. You should always break up your 
-block however with breaks here and there. At work I break these up with coffee,
-food, twitter and emails.
+So let's get started shall we? Work your way through this list of chapters as
+and when you find time. Try and work on each chapter with a block of time. They
+should take no more than a couple of hours to complete each. You should always
+break up your block however with breaks here and there. At work I break these up
+with coffee, food, twitter and emails.
 
  - [Chapter One: Adele's first TDD Project][chapter-one]
 
