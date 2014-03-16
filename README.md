@@ -41,7 +41,7 @@ The easiest way to introduce you to this project is to describe what we've got
 already. Obviously you're already partly familiar with the README.md in the root
 of this project. You're reading it silly ^__^.
 
-### package.json
+### `package.json`
 
 The other file contained within this folder is `package.json`. It essentially
 explains your project – if you were to open source it – along with defining any
