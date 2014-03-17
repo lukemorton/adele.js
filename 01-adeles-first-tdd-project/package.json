@@ -2,7 +2,6 @@
   "name": "adele",
   "version": "0.0.0",
   "description": "Test project for Adele",
-  "main": "src/adele.js",
   "directories": {
     "test": "test"
   },
