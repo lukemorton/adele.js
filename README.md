@@ -138,6 +138,7 @@ break up your block however with breaks here and there. At work I break these up
 with coffee, food, twitter and emails.
 
  - [Chapter One: Adele's first TDD Project][chapter-one]
+ - [Chapter Two: Cards stacked against you][chapter-two]
 
 ## About this project
 
@@ -157,4 +158,5 @@ MIT. See [LICENSE][license] for more information.
 [cli]: http://en.wikipedia.org/wiki/Command-line_interface
 [github-issue]: https://github.com/DrPheltRight/adele.js/issues/new
 [chapter-one]: https://github.com/DrPheltRight/adele.js/tree/develop/01-adeles-first-tdd-project
+[chapter-two]: https://github.com/DrPheltRight/adele.js/tree/develop/02-cards-stacked-against-you
 [license]: https://github.com/DrPheltRight/adele.js/tree/develop/LICENSE
